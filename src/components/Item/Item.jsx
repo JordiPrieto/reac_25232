@@ -1,4 +1,4 @@
-import "./item.css";
+import "./Item.css";
 
 export const item = ({ name, price, description, imageUrl, children }) => {
   return (
