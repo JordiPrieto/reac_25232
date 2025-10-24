@@ -1,4 +1,4 @@
-import Item from "../Item/Item";
+import { Item } from "../Item/Item";
 import { Link } from "react-router-dom";
 import "./itemList.css"; // Importamos los estilos para este componente
 
