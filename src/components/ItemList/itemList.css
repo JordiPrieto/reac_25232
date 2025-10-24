@@ -1,0 +1,20 @@
+.productos-container {
+  display: grid; /* O display: flex; flex-wrap: wrap; */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Ejemplo de grid responsivo */
+  gap: 20px; /* Espacio entre los productos */
+    padding: 20px;
+  justify-content: center; /* Centra los items si no llenan una fila completa */
+}
+
+.producto-link {
+  text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+  color: inherit; /* Hereda el color del texto para no ser el azul predeterminado */
+  display: block; /* Para que el enlace ocupe todo el espacio de la tarjeta de producto */
+}
+
+.no-productos-mensaje {
+    text-align: center;
+    font-size: 1.2em;
+    color: #888;
+    margin-top: 50px;
+}
