@@ -1,6 +1,6 @@
 import "./Item.css";
 
-export const item = ({ name, price, description, imageUrl, children }) => {
+export const Item = ({ name, price, description, imageUrl, children }) => {
   return (
     <article className="product-item">
       <img src={imageUrl} alt={description} />
@@ -11,5 +11,5 @@ export const item = ({ name, price, description, imageUrl, children }) => {
     </article>
   );
 };
-
+export default Item;
 
