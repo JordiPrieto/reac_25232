@@ -1,6 +1,6 @@
 import { Item } from "../Item/Item";
 import { Link } from "react-router-dom";
-import "./ItemList.css"; // Importamos los estilos para este componente
+import "./itemList.css"; // Importamos los estilos para este componente
 
 export const ItemList = ({ list }) => {
   return (
